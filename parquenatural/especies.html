@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EJERCICIO HTML 6/7/8/9/10</title>
+</head>
+
+<style>
+    body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; width: 900px}
+    h1{color: burlywood; text-align: center}
+    h2{color:lawngreen; margin: 10px; margin-top: 20px}
+    h3{color: burlywood; margin: 10px; margin-left: 10px}
+    #principal{border: groove; margin: 20px; border-radius: 24px}
+    #contenido{border:groove; margin: 20px; margin-left: 120px}
+    p{margin: 15px; margin-left: 10px}
+    ol{ 
+        float: left; 
+        list-style-type: none;
+        margin: 0;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    a {
+        background-color: #4CAF50; /* Green */
+        border: 1px solid green;
+        color: white;
+        height: 15px;
+        width: 50px;
+        padding: 11px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        margin-bottom: 0.2em;
+        text-decoration: none;
+    }
+    a:hover{background-color: lightblue}
+</style>
+
+<body>
+    <div id="principal">
+        <img src="imagenes/panoramica.jpg" style="margin-top: 18px">
+        <h1><span style="color: green" >Parque Natural </span>Sierra Bicuerca</h1>
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="especies.html" style="background-color: lightcoral">Especies</a></li>
+            <li><a>Reservas</a></li>
+            <li><a>Galería</a></li>
+        </ol>
+        <div id="contenido">
+            <h2>Especies del parque</h2>
+            <hr style="margin: 10px">
+            <p>Estos son algunos de los habitantes del parque</p>
+            <h3>Nutria</h3>
+            <p>La nutria europea o paleártica(Lutra lutra) es un mamífero carnívoro de hábitat acuático. 
+                Se alimenta de peces, ranas y pequeñas presas que caza en el río. Cerca de sus lugares de 
+                cobijo, podremos ver toboganes que crean para llegar rápidamente al agua.
+            </p>
+            <h3>Buitre leonado</h3>
+            <p>El buitre leonado (Gyps fulvus) es un ave rapaz, una de las mayores que puede encontrarse 
+                en la Península Ibérica. Su alimentación principal es la carroña, que localiza con su aguda vista.
+            </p>
+            <h3>Gineta</h3>
+            <p>La gineta (Genetta genetta) es una especie de mamífero carnívoro. Son grandes trepadoras, muy ágiles y 
+                grandes cazadores de pequeños animales. Aunque tambien se alimentan de los frutos del bosque que se 
+                pueden encontrar en el parque.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
