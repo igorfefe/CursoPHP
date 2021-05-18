@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EJERCICIO CONSOLA</title>
+</head>
+
+<style>
+    .cuerpo{
+        display:flex;
+        flex-direction: column;
+        height: 650px;
+    }
+    .consola{
+        display: flex;
+        justify-content:center;
+        height: 405px;
+        margin-top: 100px;
+    }
+    .mando1{
+        flex-direction: column;
+        height: 405px;
+        width: 133px;
+        background-color:#00c3e3;
+        border-top-left-radius: 72px;
+        border-bottom-left-radius: 72px;
+    }
+    .minus{
+        height:10px;
+        width:25px;
+        background-color:black;
+        float:right;
+        margin: 35px 10px;
+        border-radius: 3px;
+    }
+    .joystick1{
+        height: 65px;
+        width: 65px;
+        border-radius: 50%;
+        margin: 70px 0px 35px 40px;
+        align-content: center;
+        background-color:black;
+    }
+    .lboton1{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: black;
+        margin: 0px 57px;
+    }
+    .lbotones23{
+        display: flex;
+        height: 30px;
+        flex-direction: row;
+    }
+    .lboton2{
+        height: 30px;
+        width:30px;
+        border-radius: 50%;
+        background-color: black;
+        margin-left: 25px;
+        margin-right: 34px;
+    }
+    .lboton3{
+        height: 30px;
+        width:30px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .lboton4{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: black;
+        margin: 0px 57px;
+    }
+    .lbotonextra{   
+        height: 25px;
+        width: 25px;
+        border-radius: 4px;
+        background-color: black;
+        margin: 18px 80px;
+    }
+    .centro{
+        height: 405px;
+        width: 684px;
+        background-color: grey;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .pantalla{
+        margin: 15px 20px;
+        background-color: black;
+        height: 350px;
+        width: 574px;
+        border-radius: 20px;
+        padding: 25px 35px 0px 35px;
+        
+    }
+    .blanco{
+        
+        background-color:white;
+        height: 325px;
+        width: 574px;
+    }
+    .mando2{
+        height: 405px;
+        width: 133px;
+        background-color:#ff4554;
+        border-top-right-radius: 72px;
+        border-bottom-right-radius: 72px;
+    }
+    .plus {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        margin-top: 27px;
+        margin-left: 10px;
+    }
+    .plus div {
+        position: absolute;
+        background: black;
+    }
+    .plus-vertical {
+        left: 33%;
+        width: 33%;
+        height: 100%;
+        border-radius: 3px;
+    }
+    .plus-horizontal {
+        top: 33%;  
+        width: 100%;
+        height: 33%;
+        border-radius: 3px;
+    }
+    .rboton1{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: black;
+        margin-top: 5px;
+        margin-left: 47px;
+    }
+    .rbotones23{
+        display: flex;
+        height: 30px;
+        flex-direction: row;
+    }
+    .rboton2{
+        height: 30px;
+        width:30px;
+        border-radius: 50%;
+        background-color: black;
+        margin-left: 15px;
+        margin-right: 34px;        
+    }
+    .rboton3{
+        height: 30px;
+        width:30px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .rboton4{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: black;
+        margin-left: 47px;
+    }
+    .joystick2{
+        height: 65px;
+        width: 65px;
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 30px;
+        align-content: center;
+        background-color:black;
+    }
+    .rbotonextra{   
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        background-color: black;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    
+</style>
+
+<body>
+    <div class="cuerpo">
+        <div class="consola">
+            <div class="mando1">
+                <div class="minus"></div>
+                <div class="joystick1"></div>
+                <div class="lboton1"></div>
+                <div class="lbotones23">
+                    <div class="lboton2"></div>
+                    <div class="lboton3"></div>
+                </div>
+                <div class="lboton4"></div>
+                <div class="lbotonextra"></div>
+            </div>
+            <div class="centro">
+                <div class="pantalla">
+                    <div class="blanco"></div>
+                </div>
+            </div>
+            <div class="mando2">
+                <div class="plus">
+                    <div class="plus-vertical"></div>
+                    <div class="plus-horizontal"></div>
+                </div>
+                <div class="rboton1"></div>
+                <div class="rbotones23">
+                    <div class="rboton2"></div>
+                    <div class="rboton3"></div>
+                </div>
+                <div class="rboton4"></div>
+                <div class="joystick2"></div>
+                <div class="rbotonextra"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
