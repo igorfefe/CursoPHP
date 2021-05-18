@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EJERCICIO HTML 11</title>
+</head>
+<style>
+    table{
+        padding: 0;
+        margin: 0;
+        border-spacing: 0;
+        border: inset;
+    }
+    th, td{
+        border-width: 1px;
+        border-style: solid;
+        border-color: blue; 
+    }
+    th{
+        background-color:darkslategray;
+        color:white;
+    }
+
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th>ACTIVIDAD</th>
+            <th>TARIFA/HORA</th>
+        </tr>
+        <tbody style="background: lightblue">
+            <tr>
+                <td>AEROBIC</td>
+                <td rowspan="2" style="text-align: center">3€</td>
+            </tr>
+            <tr>
+                <td>STEP</td>
+            </tr>
+        </tbody>
+        <tbody style="background:lightseagreen ">
+            <tr>
+                <td>MUSCULACIÓN</td>
+                <td style="text-align: center">4€</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

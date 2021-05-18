@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EJERCICIO HTML 11</title>
+</head>
+
+<style>
+    .cuerpo{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        height: 664px;
+    }
+    .arriba{
+        align-items: center;
+        box-sizing: border-box;
+        color: black;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        height: 60px;
+        padding: 6px;
+    }
+    .arribaDer{
+       flex: 50%;
+    }
+
+    .arribaIzq{
+        flex: 50%;
+    }
+
+    .aIzq{
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-left: 15px;
+        margin-right: 5px;
+        margin-top: 0px;
+        padding: 5px;
+        text-decoration-line: none;
+    }
+    .aDer{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-left: 15px;
+        margin-right: 5px;
+        margin-top: 8px;
+        padding: 5px;
+        float:right;
+        text-decoration: none;
+    }
+    .fotosDer{
+        float:right;
+        justify-content: center;
+        padding: 5px;
+        margin-top: 1px;
+        margin-left: 15px;
+    }
+    .logo{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+        box-sizing: border-box;
+        max-height: 290px;
+        height: calc(100% - 560px);
+    }
+    .google{
+        max-height: 92px;
+        position:relative;
+        margin-top:auto;
+    }
+    .ajustarlogo{
+        object-fit: contain;
+        object-position: center;
+    }
+    .barra{
+        display: flex;
+        flex-shrink: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: 60px;
+    }
+    .buscador{
+        width: 584px;
+        position:relative;
+        margin:0;
+        padding-top:6px;
+        display:flex;
+        border: 1px solid #dfe1e5;
+        box-shadow:none;
+        border-radius:24px;
+        height: 44px;
+    }
+    .botones{
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        padding-top: 10px;
+        height: 70px;
+    }
+    .boton1x{
+        flex:50%;
+        margin-right: 25px;
+        margin-top: 0;
+    }
+    .boton1{
+        float:right;
+        border: 1px solid #dfe1e5;
+        border-radius: 6px;
+        padding: 10px;
+        background-color: #dfe1e5;
+    }
+    .boton2x{
+        flex:50%;
+    }
+    .boton2{
+        float:left;
+        border: 1px solid #dfe1e5;
+        border-radius: 6px;
+        padding: 10px;
+        background-color: #dfe1e5;
+    }
+    .idiomas{
+        display:flex;
+        flex-shrink: 0;
+        align-items:center;
+        padding-top:5px;
+        height: 200px;
+        flex-direction: column;
+    }
+    .abajo{
+        background-color: #f2f2f2; 
+        flex-shrink: 0;
+        box-sizing: border-box;
+        color: rgba(0,0,0,.54);
+        height: 300px;
+    }
+    .pais{
+        padding: 15px 30px;
+        border-bottom: 1px solid #dadce0;
+        font-size: 15px;
+    }
+
+
+</style>
+
+<body>
+    <div class="cuerpo">
+
+        <div class="arriba">
+            <div class="arribaIzq">
+                <a class="aIzq">Sobre Google</a>
+                <a class="aIzq">Tienda</a>
+            </div>
+            <div class="arribaDer">
+                <img class="fotosDer" style="border-radius: 50%" src="imagenes/foto.gif" width="30" height="30">
+                <img class="fotosDer" style="margin-top: 5px" src="imagenes/menu-de-puntos.png" width="20" height="20">
+                <a class="aDer">Imágenes</a>
+                <a class="aDer">Gmail</a>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="google">
+                <img class="ajustarlogo" src="imagenes/logo.png">
+            </div>
+        </div>
+        <div class="barra">
+            <div class="buscador"></div>
+        </div>
+        <div class="botones">
+                <div class="boton1x">
+                    <p class="boton1">Buscar con Google</p>
+                </div>
+                <div class="boton2x">
+                        <p class="boton2">Voy a tener suerte</p>
+                </div>
+        </div>
+        <div class="idiomas">
+            <p>Ofrecido por Google en:<span style="color: blue"> English català galego euskara</span></p>
+        </div>
+        <div class="abajo">
+            <p class="pais">España</p>
+            <p class="bottom">Publicidad    Empresa     Cómo funciona la Búsqueda</p>
+        </div>
+
+    </div>
+</body>
+</html>
