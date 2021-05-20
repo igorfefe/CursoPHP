@@ -1,0 +1,281 @@
+.cuerpo{
+    display:flex;
+    flex-direction: column;
+    height: 650px;
+}
+.consola{
+    display: flex;
+    justify-content:center;
+    height: 405px;
+    margin-top: 100px;
+}
+.mando1{
+    flex-direction: column;
+    height: 405px;
+    width: 133px;
+    background-color:#00c3e3;
+    border-top-left-radius: 72px;
+    border-bottom-left-radius: 72px;
+    border-bottom-right-radius: 4px;
+}
+.minus{
+    height:10px;
+    width:25px;
+    background-color:black;
+    float:right;
+    margin: 35px 10px;
+    border-radius: 3px;
+}
+.joystick1{
+    display: flex;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin: 70px 0px 35px 40px;
+    align-content: center;
+    background-color:black;
+}
+.circulo1{
+    height:51px;
+    width: 51px;
+    border-radius: 50%;
+    background-color: rgb(68, 68, 68);
+    margin: 7px;
+    
+}
+.lboton1{
+    display:flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px 57px;
+}
+.triangulo1 {
+    width: 0; 
+    height: 0; 
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 12px solid grey;
+    margin: 8px 9px;
+}
+.lbotones23{
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+}
+.lboton2{
+    display: flex;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 25px;
+    margin-right: 34px;
+}
+.triangulo2{
+    width: 0; 
+    height: 0; 
+    border-top: 7px solid transparent;
+    border-right: 12px solid grey;
+    border-bottom: 7px solid transparent;
+    margin: 9px 7px;
+}
+.lboton3{
+    display: flex;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: black;
+}
+.triangulo3{
+    width: 0; 
+    height: 0; 
+    border-top: 7px solid transparent;
+    border-left: 12px solid grey;
+    border-bottom: 7px solid transparent;
+    margin: 9px 11px;
+}
+.lboton4{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px 57px;
+}
+.triangulo4{
+    width: 0; 
+    height: 0; 
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 12px solid grey;
+    margin: 10px 9px;
+}
+.lbotonextra{ 
+    display: flex;  
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+    background-color: black;
+    margin: 18px 80px;
+}
+.circuloextra{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: grey;
+    margin:5px;
+}
+.centro{
+    height: 405px;
+    width: 684px;
+    background-color: grey;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.pantalla{
+    margin: 15px 20px;
+    background-color: black;
+    height: 350px;
+    width: 574px;
+    border-radius: 20px;
+    padding: 25px 35px 0px 35px;
+    
+}
+.blanco{
+    display: flex;
+    background-color:white;
+    height: 325px;
+    width: 574px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin:100px 220px;
+}
+.mando2{
+    height: 405px;
+    width: 133px;
+    background-color:#ff4554;
+    border-top-right-radius: 72px;
+    border-bottom-right-radius: 72px;
+    border-bottom-left-radius: 4px;
+}
+.plus {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-top: 27px;
+    margin-left: 10px;
+}
+.plus div {
+    position: absolute;
+    background: black;
+}
+.plus-vertical {
+    left: 33%;
+    width: 33%;
+    height: 100%;
+    border-radius: 3px;
+}
+.plus-horizontal {
+    top: 33%;  
+    width: 100%;
+    height: 33%;
+    border-radius: 3px;
+}
+.rboton1{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 47px;
+}
+.letra1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 2px 7px;
+}
+.rbotones23{
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+}
+.rboton2{
+    display: flex;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 34px;        
+}
+.letra2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0px;
+}
+.rboton3{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: black;
+}
+.letra3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0px;
+}
+.rboton4{
+    display:flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 47px;
+}
+.letra4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0px;
+}
+.joystick2{
+    display: flex;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 30px;
+    align-content: center;
+    background-color:black;
+}
+.circulo2{
+    height:51px;
+    width: 51px;
+    border-radius: 50%;
+    background-color: rgb(68, 68, 68);
+    margin: 7px;
+}
+.rbotonextra{  
+    display: flex; 
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: rgb(54, 54, 54);
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.home{
+    height: 18px;
+    width: 20px;
+    margin: 6px;
+}
