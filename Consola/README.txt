@@ -1,1 +1,1 @@
-Diseño en HTML/CSS de una consola portatil Nintendo Switch, hecha con flex.
+Diseño en HTML/CSS de una consola portatil Nintendo Switch.
