@@ -1,13 +1,18 @@
+body{
+height:75vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
 .cuerpo{
     display:flex;
     flex-direction: column;
-    height: 650px;
+    height: 405px;
 }
 .consola{
     display: flex;
     justify-content:center;
     height: 405px;
-    margin-top: 100px;
 }
 .mando1{
     flex-direction: column;
