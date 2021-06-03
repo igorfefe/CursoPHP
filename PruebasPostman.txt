@@ -1,0 +1,229 @@
+1. GET https://restcountries.eu/rest/v2/all :
+[
+    {
+        "name": "Afghanistan",
+        "topLevelDomain": [
+            ".af"
+        ],
+        "alpha2Code": "AF",
+        "alpha3Code": "AFG",
+        "callingCodes": [
+            "93"
+        ],
+        "capital": "Kabul",
+        "altSpellings": [
+            "AF",
+            "Afġānistān"
+        ],
+
+2. GET https://restcountries.eu/rest/v2/name/Spain :
+[
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+
+3. GET https://restcountries.eu/rest/v2/name/Spain?fullText=true :
+[
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+
+4. GET https://restcountries.eu/rest/v2/alpha/ES :
+{
+    "name": "Spain",
+    "topLevelDomain": [
+        ".es"
+    ],
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "callingCodes": [
+        "34"
+    ],
+    "capital": "Madrid",
+    "altSpellings": [
+        "ES",
+        "Kingdom of Spain",
+        "Reino de España"
+    ],
+
+5. GET https://restcountries.eu/rest/v2/alpha?codes=EN;ES;RU :
+[
+    null,
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+
+6. GET https://restcountries.eu/rest/v2/currency/all :
+[
+    {
+        "name": "Albania",
+        "topLevelDomain": [
+            ".al"
+        ],
+        "alpha2Code": "AL",
+        "alpha3Code": "ALB",
+        "callingCodes": [
+            "355"
+        ],
+        "capital": "Tirana",
+        "altSpellings": [
+            "AL",
+            "Shqipëri",
+            "Shqipëria",
+            "Shqipnia"
+        ],
+
+7. GET https://restcountries.eu/rest/v2/lang/en :
+[
+    {
+        "name": "American Samoa",
+        "topLevelDomain": [
+            ".as"
+        ],
+        "alpha2Code": "AS",
+        "alpha3Code": "ASM",
+        "callingCodes": [
+            "1684"
+        ],
+        "capital": "Pago Pago",
+        "altSpellings": [
+            "AS",
+            "Amerika Sāmoa",
+            "Amelika Sāmoa",
+            "Sāmoa Amelika"
+        ],
+
+8. GET https://restcountries.eu/rest/v2/capital/Paris :
+[
+    {
+        "name": "France",
+        "topLevelDomain": [
+            ".fr"
+        ],
+        "alpha2Code": "FR",
+        "alpha3Code": "FRA",
+        "callingCodes": [
+            "33"
+        ],
+        "capital": "Paris",
+        "altSpellings": [
+            "FR",
+            "French Republic",
+            "République française"
+        ],
+
+9. GET https://restcountries.eu/rest/v2/callingcode/32 :
+[
+    {
+        "name": "Belgium",
+        "topLevelDomain": [
+            ".be"
+        ],
+        "alpha2Code": "BE",
+        "alpha3Code": "BEL",
+        "callingCodes": [
+            "32"
+        ],
+        "capital": "Brussels",
+        "altSpellings": [
+            "BE",
+            "België",
+            "Belgie",
+            "Belgien",
+            "Belgique",
+            "Kingdom of Belgium",
+            "Koninkrijk België",
+            "Royaume de Belgique",
+            "Königreich Belgien"
+        ],
+
+10. GET https://restcountries.eu/rest/v2/region/Europe :
+[
+    {
+        "name": "Åland Islands",
+        "topLevelDomain": [
+            ".ax"
+        ],
+        "alpha2Code": "AX",
+        "alpha3Code": "ALA",
+        "callingCodes": [
+            "358"
+        ],
+        "capital": "Mariehamn",
+        "altSpellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+
+11. GET https://restcountries.eu/rest/v2/regionalbloc/EU :
+[
+    {
+        "name": "Åland Islands",
+        "topLevelDomain": [
+            ".ax"
+        ],
+        "alpha2Code": "AX",
+        "alpha3Code": "ALA",
+        "callingCodes": [
+            "358"
+        ],
+        "capital": "Mariehamn",
+        "altSpellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+
+12. GET https://restcountries.eu/rest/v2/all?fields=name;capital;population :
+[
+    {
+        "name": "Afghanistan",
+        "capital": "Kabul",
+        "population": 27657145
+    },
+    {
+        "name": "Åland Islands",
+        "capital": "Mariehamn",
+        "population": 28875
+    },
+    {
+        "name": "Albania",
+        "capital": "Tirana",
+        "population": 2886026
+    },
